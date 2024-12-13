@@ -1,0 +1,149 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  color: #2e7d32; /* Verde */
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-image: url("imagenes/biodiversidad_encabezado.jpg"); /* Ruta de la imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Sección de Inicio */
+#inicio {
+  text-align: center; /* Centra el texto dentro de la sección */
+  padding: 40px 20px;
+}
+
+#inicio h1 {
+  font-size: 2.5rem;
+  color: #2e7d32;
+}
+
+#inicio p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 800px; /* Limita el ancho del párrafo para que no se vea tan largo */
+  margin: 20px auto; /* Centra el párrafo horizontalmente */
+}
+
+#inicio img {
+  width: 100%;
+  max-width: 700px; /* Limita el tamaño de la imagen */
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Sección de Especies */
+.grupo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#especies .grupo {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+#especies .grupo h3 {
+  color: #388e3c;
+}
+
+#especies .grupo img {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+#especies .grupo p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Formulario de contacto */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #388e3c;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #2e7d32;
+}
+
+/* Footer */
+footer {
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  bottom: 0px;
+  padding-top: 5px;
+}
